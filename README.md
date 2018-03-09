@@ -1,3 +1,3 @@
-![Helio RC](https://heliorc.com/wp-content/uploads/2018/02/Logo-Header.png)
+![Helio RC](https://raw.githubusercontent.com/heliorc/imuf-release/master/gh_logo.png)
 # imuf-release
 Hex releases for supported firmware
