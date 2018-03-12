@@ -1,7 +1,7 @@
 
 ### 1.03: Bacon & Spam
 * fix init bug where the quad wouldn't arm randomly in very rare instances.
-* remove imuf_dyn_gain scaling
+* remove imuf_dyn_gain as it created MTO in more instances than solved. Most suggestions were to turn it off in general.
 
 ### 1.02: Sausage
 * add auto-update, remove the need for "imufupdate" in console
