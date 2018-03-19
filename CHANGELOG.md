@@ -24,7 +24,7 @@ set gyro_sync_denom=1
 set imuf_rate = 32K
 set acc_hardware = NONE
 set cpu_overclock = 216MHZ
-set motor_pwm_protocol = DSHOT1200 (DSHOT600 at 32k will corrupt. It is a specification limitiation)
+set motor_pwm_protocol = DSHOT1200 #(DSHOT600 at 32k will corrupt. It is a specification limitiation)
 ```
 
 ### 1.0.3: Bacon & Spam
