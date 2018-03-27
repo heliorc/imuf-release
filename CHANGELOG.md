@@ -1,5 +1,5 @@
 
-### 1.0.4 (BETA): Picard
+### 1.0.4 (RC1): Picard
 * Defaults changes:
   * Default pid loop and gyro loop is now 32K.
   * Default F4 clock speed is now 192MHZ. this is because Multishot runs better with the clock speed as a multiple of 32. You can set it to 168MHZ and things will still run fine, but 192 is preferred because of maths.
