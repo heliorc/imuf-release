@@ -3,7 +3,7 @@
 * Defaults changes:
   * Default pid loop and gyro loop is now 32K.
   * Default F4 clock speed is now 192MHZ. this is because Multishot runs better with the clock speed as a multiple of 32. You can set it to 168MHZ and things will still run fine, but 192 is preferred because of maths.
-  * note: Proshot1000 is supported in the 32.4 BLHELI_32 firmware. Proshot1000 is prefverred over Dshot1200. Dshot600/1200 are incompatible with rc_interpolation enabled at 32K without overclocking to 216MHZ. if you select DSHOT1200 and rc_interpolation is not "OFF", we will automatically set overclock to 216MHZ. You can also lower the pid loop to 16K if you prefer to not overclock.
+  * note: Proshot1000 is supported in the 32.4 BLHELI_32 firmware. Proshot1000 is preferred over Dshot1200. Dshot600/1200 are incompatible with rc_interpolation enabled at 32K without overclocking to 216MHZ. if you select DSHOT1200, rc_interpolation is not OFF, and the pid loop is 32k, we will automatically set overclock to 216MHZ. You can also lower the pid loop to 16K if you prefer to not overclock.
 * add imuf_rate setting. Accepted values: 32K, 16K, 8K, 4K, 2K, 1K. Use this to match your gyro loop speed.
 ```
 //default:
