@@ -21,7 +21,8 @@ set imuf_pitch_w = 115
 set imuf_roll_w = 115
 set imuf_yaw_w = 115
 ```
-* Butterflight: 
+* Butterflight
+ * Known issue: When Using Dshot1200 & 32k pid loop if acceleromoter is off, CPU usage goes to 100%. leave acelleromter on in this instance.
 
 ### 1.0.3: Bacon & Spam
 * fix init bug where the quad wouldn't arm randomly in very rare instances.
