@@ -1,8 +1,8 @@
 
 ### 1.0.4 (RC2): Picard
 * Defaults changes:
-  * Default pid loop and gyro loop is now 32K.
-  * Acellerometer is off by default
+  * Default pid loop and gyro loop is now 32K
+  * Accelerometer is off by default
   * PIDs are now Betaflight original defaults (45/58/70 P and 30/35 D)
   * Anti-gravity is now off by default. Anti-gravity was a bandaid for improper filtering. Because of that, AG has litte-to-no positive effects with IMU-F. In certain cases, AG would negatively impact flight performance with IMU-F.
   * Default F4 clock speed is now 192MHZ. This is because Multishot runs better with the clock speed as a multiple of 32. You can set it to 168MHZ and things will still run fine, but 192 is preferred because of maths.
