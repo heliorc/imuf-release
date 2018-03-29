@@ -11,10 +11,6 @@
   * NOTE: It will be automatically set by the gyro speed dropdown as of RC2.
 * CLI: "version" now tells you what IMUF version you are running.
 * Configurator: You are now able to flash via the dropdown in the UI. :party_parrot:
-```
-//default:
-set imuf_rate = 32K #this should match your gyro loop time.
-```
 * replace imuf_AXIS_r with imuf_AXIS_w. This is similar to the previous "dyn_gain" setting except applies directly to our fully dynamic Kalman implementations and is applied per-axis. Accepted values: 0 - 199. Default: 10 (minimum 6). 106+ is an alternative Dynamic Kalman we are also testing. Once we have determined which is the most appropriate for the majority of users, we will be simplifying this option.
 
 ```
