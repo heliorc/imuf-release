@@ -2,7 +2,7 @@
 ### 1.0.4 (RC3): Picard
 * Defaults changes:
   * Default pid loop is 16k
-  * note: the reason for this is people with 8 bit ESCs would attempt to sed dshot600 as their protocol and it wouldn't arm. Dshot600 won't run at 32k. only Dshot1200 will run properly at 32k and only on 32 bit ESCs. Proshot is not ready for prime-time. People have reported desyncs and death rolls using pro-shot. This is an implementation problem in BeF/BuF/blheli_32. Also, Dshot600/1200 are incompatible with rc_interpolation enabled at 32K without overclocking to 216MHZ. if you select DSHOT1200, rc_interpolation is not OFF, and the pid loop is 32k, we will automatically set overclock to 216MHZ. You can also leave the pid loop to 16K if you prefer to not overclock.
+  * note: The reason for this is people with 8 bit ESCs would attempt to set dshot600 as their protocol and it wouldn't arm. Dshot600 won't run at 32k. Only Dshot1200 will run properly at 32k and only on 32 bit ESCs. Proshot is not ready for prime-time. People have reported desyncs and death rolls using pro-shot. This is an implementation problem in BeF/BuF/blheli_32. Also, Dshot600/1200 are incompatible with rc_interpolation enabled at 32K without overclocking to 216MHZ. if you select DSHOT1200, rc_interpolation is not OFF, and the pid loop is 32k, we will automatically set overclock to 216MHZ. You can also leave the pid loop to 16K if you prefer to not overclock.
   * Default protocol is Multishot with PWM set to 32000.
   * Default gyro loop is 32k
   * Default F4 clock speed is now 192MHZ. This is because Multishot runs better with the clock speed as a multiple of 32. You can set it to 168MHZ and things will still run fine, but 192 is preferred because of maths.
