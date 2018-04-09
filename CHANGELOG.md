@@ -1,10 +1,9 @@
 
-### 1.0.5 (RC4): Picard
+### 1.0.5 (RC5): Picard
 * Defaults changes:
-  * Default pid loop is 16k
+  * Default gyro and pid loop is 16k
   * note: The reason for this is people with 8 bit ESCs would attempt to set dshot600 as their protocol and it wouldn't arm. Dshot600 won't run at 32k. Only Dshot1200 will run properly at 32k and only on 32 bit ESCs. Proshot is not ready for prime-time. People have reported desyncs and death rolls using pro-shot. This is an implementation problem in BeF/BuF/blheli_32. Also, Dshot600/1200 are incompatible with rc_interpolation enabled at 32K without overclocking to 216MHZ. if you select DSHOT1200, rc_interpolation is not OFF, and the pid loop is 32k, we will automatically set overclock to 216MHZ. You can also leave the pid loop to 16K if you prefer to not overclock.
-  * Default protocol is Multishot with PWM set to 32000.
-  * Default gyro loop is 32k
+  * Default protocol is Multishot
   * Default F4 clock speed is now 192MHZ. This is because Multishot runs better with the clock speed as a multiple of 32. You can set it to 168MHZ and things will still run fine, but 192 is preferred because of maths.
   * Default pids are now back down to 3.4.2 defaults. BeF pids were just way too high for practically anything running our board.
   * Default Anti-gravity gain is now 3 and antigravity feture is enabled by default. Mileage may vary. In some cases, it can help with stability, but with a gain of 5 (previous default) or 8+, it was causing oscillations rather than fixing them.
