@@ -1,5 +1,5 @@
 
-### 1.0.6 (RC6): Caprica
+### 1.0.6 (RC7): Caprica
 * Auto-level gyro/acc calibration is fixed.
 * Defaults changes:
   * Default gyro and pid loop is 16k
