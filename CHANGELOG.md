@@ -1,7 +1,7 @@
 
 ### 1.0.6 (RC8): Caprica
-* STATUS LUED RETURNS
-* attitude updates at 1Khz (as opposed to 200hz in vanilla butterflight) 
+* STATUS LED RETURNS!
+* Attitude updates at 1Khz (as opposed to 200hz in vanilla butterflight) 
 * Auto-level gyro/acc calibration is fixed.
 * Defaults changes:
   * Default gyro and pid loop is 16k
