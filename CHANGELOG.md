@@ -1,5 +1,7 @@
 
-### 1.0.6 (RC7): Caprica
+### 1.0.6 (RC8): Caprica
+* STATUS LUED RETURNS
+* attitude updates at 1Khz (as opposed to 200hz in vanilla butterflight) 
 * Auto-level gyro/acc calibration is fixed.
 * Defaults changes:
   * Default gyro and pid loop is 16k
@@ -17,6 +19,7 @@
 * IMUF 1.0.6 fixes an issue where calibration did not always occur correctly.
 * BuF 3.5.1+ requires IMUF 1.0.6+ 
 * BuF 3.5.1 release notes: https://github.com/ButterFlight/butterflight/releases/tag/3.5.1-RC1
+* BuF 3.5.1 YAW D is ACTUALLY filtered.
 
 ```
 //default:
