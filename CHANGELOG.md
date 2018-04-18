@@ -3,6 +3,7 @@
 * STATUS LED RETURNS!
 * Attitude updates at 1Khz (as opposed to 200hz in vanilla butterflight) 
 * Auto-level gyro/acc calibration is fixed.
+* Calibration on first arm is enabled. it will be removed in the official release.
 * Defaults changes:
   * Default gyro and pid loop is 16k
   * note: The reason for this is people with 8 bit ESCs would attempt to set dshot600 as their protocol and it wouldn't arm. Digital Protocols drop packets at 32k. This is an implementation problem in BeF/BuF/blheli_32. We constrain the pid loop at 16K when selecting digital protocols due to the potential for desyncs.
