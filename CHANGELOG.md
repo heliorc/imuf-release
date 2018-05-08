@@ -1,4 +1,9 @@
 
+### 1.0.6 (RC9): Caprica
+* LPF max value raised to 450.
+* Removed calibration on first arm.
+* imuf_mode removed from OSD menu.
+
 ### 1.0.6 (RC8): Caprica
 * STATUS LED RETURNS!
 * Attitude updates at 1Khz (as opposed to 200hz in vanilla butterflight) 
