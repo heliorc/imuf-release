@@ -4,6 +4,7 @@
 * imuf_AXIS_lpf_cutoff_hz - Default set to 180hz. In most cases, lowering the LPF overfilters and creates more noise. in cases where you might have frame resonance, or noisy propellers which create actual motion in the quad, you may want to lower your LPF. This is most common to change on larger quads (6"+). Before adjusting it, find which axis is the noisiest, and only lower the LPF value for the one axis, not all.
 * imuf_AXIS_q - Values are now "elastic". The defaults (3000) are now baseline values. This will predictably change based on conditions during flight. This results in a much more responsive and connected feel while reducing the potential for MTO and other unwanted flight characteristics, stemming from having Q as a fixed value.
 * imuf_w - is now global instead of per-axis. W is the number of samples to determine process noise adjustments. The higher W is, the more data is used. W32 is ~1ms of data or 32 samples. W64 is ~2ms of data or 64 samples and so on. Larger quads may want a higher W value (64+ for 6"+)
+* Fixed an issue in rare instances that would prevent calibration and arming.
 
 ### 1.0.6 (RC9): Caprica
 * LPF max value raised to 450.
