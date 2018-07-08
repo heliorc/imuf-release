@@ -1,4 +1,8 @@
 
+### 1.0.8: Odin (Hotfix)
+* Fixed an issue where the roll LPF setting for IMU-F was incorrectly applied to the pitch axis and vice-versa.
+* minor code cleanup items.
+
 ### 1.0.7: Odin
 * Kalman calculations updated with better covariance matricies. This results in a much smoother flight experience
 * imuf_AXIS_lpf_cutoff_hz - Default set to 180hz. In most cases, lowering the LPF overfilters and creates more noise. in cases where you might have frame resonance, or noisy propellers which create actual motion in the quad, you may want to lower your LPF. This is most common to change on larger quads (6"+). Before adjusting it, find which axis is the noisiest, and only lower the LPF value for the one axis, not all.
