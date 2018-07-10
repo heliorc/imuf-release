@@ -7,3 +7,6 @@ The hexes are aggregates of the firmware plus any updates to our IMUF code. They
 <p>See https://github.com/heliorc/imuf-release/tree/legacy for old firmware releases</p>
 <p>See https://www.heliorc.com/wiring for how to hook up the HELIO SPRING.</p>
 <p>See https://www.heliorc.com/docs for more information on settings.</p>
+
+<p>See https://github.com/heliorc/imuf-release-bef for Betaflight releases.</p>
+<p>See https://github.com/heliorc/imuf-release-inav for iNav releases.</p>
