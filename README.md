@@ -1,8 +1,11 @@
 <p align="center"><img width="460" height="300" src="https://raw.githubusercontent.com/heliorc/imuf-release/master/gh_logo.png"></p>
+
 # IMUF Official Releases
+
 Hex releases for supported firmware.
 
 # UPDATE
+
 We have decoupled the updating of the flight code firmware from the update process for the IMU-F unit. When there is an update to IMU-F, you will want to use the tool provided to update IMU-F. We will no longer be creating additional aggregates since it is no longer neccesary to do so. This should make things more clear as to what is happening when you update. You will only need to update IMU-F when there is a new version specifically for IMU-F and deprecates the "iumufupdate" command in the CLI that came with our gyro driver in BxF/iNav.
 
 
