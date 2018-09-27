@@ -1,5 +1,4 @@
-<p align="center"><img width="460" height="300" src="https://raw.githubusercontent.com/heliorc/imuf-release/master/gh_logo.png"></p>
-
+![Helio RC](https://raw.githubusercontent.com/heliorc/imuf-release/master/final.svg)
 # IMUF Official Releases
 
 Hex releases for supported firmware.
