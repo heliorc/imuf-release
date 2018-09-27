@@ -23,9 +23,9 @@ in an aggregate does not cause this License to apply to the other
 parts of the aggregate.
 ```
 
-<p>See https://github.com/heliorc/imuf-release/tree/legacy for old firmware releases</p>
-<p>See https://www.heliorc.com/wiring for how to hook up the HELIO SPRING.</p>
-<p>See https://www.heliorc.com/docs for more information on settings.</p>
+See https://github.com/heliorc/imuf-release/tree/legacy for old firmware releases
+See https://www.heliorc.com/wiring for how to hook up the HELIO SPRING.
+See https://www.heliorc.com/docs for more information on settings.
 
-<p>See https://github.com/heliorc/imuf-release-bef for Betaflight releases.</p>
-<p>See https://github.com/heliorc/imuf-release-inav for iNav releases.</p>
+See https://github.com/heliorc/imuf-release-bef for Betaflight releases.
+See https://github.com/heliorc/imuf-release-inav for iNav releases.
