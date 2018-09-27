@@ -24,8 +24,11 @@ parts of the aggregate.
 ```
 
 See https://github.com/heliorc/imuf-release/tree/legacy for old firmware releases
+
 See https://www.heliorc.com/wiring for how to hook up the HELIO SPRING.
+
 See https://www.heliorc.com/docs for more information on settings.
 
 See https://github.com/heliorc/imuf-release-bef for Betaflight releases.
+
 See https://github.com/heliorc/imuf-release-inav for iNav releases.
