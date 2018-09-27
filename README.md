@@ -1,4 +1,4 @@
-![Helio RC](https://raw.githubusercontent.com/heliorc/imuf-release/master/final.svg)
+![Helio RC](https://heliorc.com/files/final.svg)
 # IMUF Official Releases
 
 Hex releases for supported firmware.
