@@ -1,7 +1,6 @@
 
-### 1.1.0: Starbuck (ALPHA)
-* Aggressive Filtering mode. imuf_AXIS_af = OFF/ON. Default OFF. This enables a more agressive filtering scheme to knock down frame resonance. It can be applied on individual axis to target the problematic axis without overfiltering the others.
-
+### 1.1.0: Starbuck (RC1)
+* Added Filter Unification (FU) Mode. There are no settings to change, it is always on. This replaces the previous "Aggrssive Filtering" mode. It makes LPFs obsolete and boils all gyro filtering settings down to a single value, W. The Q settings still have a mild effect but we will be removing most values as they will no longer be relevant in the near future.
 
 ### 1.0.8: Odin (Hotfix)
 * Fixed an issue where the roll LPF setting for IMU-F was incorrectly applied to the pitch axis and vice-versa.
